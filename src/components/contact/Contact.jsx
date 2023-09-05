@@ -30,7 +30,7 @@ const Contact = () => {
 
     axios
       .post(
-        "https://sheet.best/api/sheets/1e93d004-6d0e-40e7-a5a2-2bf222ebea3e",
+        "https://sheet.best/api/sheets/72178975-a550-4297-b214-4ea7b7aafe57",
         form
       )
       .then((response) => {
