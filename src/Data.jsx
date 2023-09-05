@@ -51,7 +51,7 @@ export const links = [
   },
   {
     name: "Main Site",
-    path: "https://sedanight.my.id",
+    link: "https://sedanight.my.id",
   },
 ];
 
