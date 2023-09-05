@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import BackToTop from "./assets/top.svg";
 import Wa from "./assets/wa.svg";
-import Web from "./assets/wwww.png";
+import Web from "./assets/www.png";
 import Cursor from "./components/cursor/Cursor";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
