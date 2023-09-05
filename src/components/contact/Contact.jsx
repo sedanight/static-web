@@ -7,38 +7,38 @@ import {
 
 import shapeOne from "../../assets/shape-1.png";
 import "./contact.css";
-import { useState } from "react";
-import axios from "axios";
+//import { useState } from "react";
+//import axios from "axios";
 
 
 const Contact = () => {
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
+  // const [form, setForm] = useState({
+  //   name: "",
+  //   email: "",
+  //   subject: "",
+  //   message: "",
+  // });
 
-  const handleChange = (e) => {
-    const name = e.target.name;
-    const value = e.target.value;
-    setForm({ ...form, [name]: value });
-  };
+  // const handleChange = (e) => {
+  //   const name = e.target.name;
+  //   const value = e.target.value;
+  //   setForm({ ...form, [name]: value });
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
 
-    axios
-      .post(
-        "https://sheet.best/api/sheets/72178975-a550-4297-b214-4ea7b7aafe57",
-        form
-      )
-      .then((response) => {
-        console.log(response);
+  //   axios
+  //     .post(
+  //       "https://sheet.best/api/sheets/72178975-a550-4297-b214-4ea7b7aafe57",
+  //       form
+  //     )
+  //     .then((response) => {
+  //       console.log(response);
 
-        setForm({ name: "", email: "", subject: "", message: "" });
-      });
-  };
+  //       setForm({ name: "", email: "", subject: "", message: "" });
+  //     });
+  //};
 
   return (
     <>
@@ -87,7 +87,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <form className="contact__form" onSubmit={handleSubmit}>
+          {/* <form className="contact__form" onSubmit={handleSubmit}>
             <div className="contact__form-group grid">
               <div className="contact__form-div">
                 <label className="contact__form-tag text-cs">
@@ -147,7 +147,7 @@ const Contact = () => {
                 Send Message
               </button>
             </div>
-          </form>
+          </form> */}
         </div>
 
         <div className="section__deco deco__left">
