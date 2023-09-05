@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import BackToTop from "./assets/top.svg";
 import Wa from "./assets/wa.svg";
+import Web from "./assets/wwww.png";
 import Cursor from "./components/cursor/Cursor";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
@@ -64,6 +65,9 @@ function App() {
           <button className="wa" type="button">
             <a href="https://wa.me/6288286819860" target="__blank">
               <img src={Wa} alt="" width="50px" />
+            </a>
+            <a href="https://sedanight.my.id" target="__blank">
+              <img src={Web} alt="" width="50px" />
             </a>
           </button>
           <Cursor/>
