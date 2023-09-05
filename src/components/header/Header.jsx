@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 import { links } from "../../Data";
 import {
-  FaTwitter,
-  FaDribbble,
-  FaBehance,
+  // FaTwitter,
+  // FaDribbble,
+  // FaBehance,
   FaRegSun,
   FaRegMoon,
 } from "react-icons/fa";
@@ -92,7 +92,7 @@ const Header = () => {
                 })}
               </ul>
 
-              <div className="header__socials">
+              {/* <div className="header__socials">
                 <a href="" className="header__social-link">
                   <FaTwitter />
                 </a>
@@ -102,7 +102,7 @@ const Header = () => {
                 <a href="" className="header__social-link">
                   <FaBehance />
                 </a>
-              </div>
+              </div> */}
             </div>
 
             <div className="section__deco deco__left header__deco">

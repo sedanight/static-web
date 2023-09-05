@@ -49,6 +49,10 @@ export const links = [
     name: "Contact",
     path: "contact",
   },
+  {
+    name: "Main Site",
+    path: "https://sedanight.my.id",
+  },
 ];
 
 export const services = [
