@@ -33,7 +33,7 @@ const Home = () => {
 
               <p className="home__data home__data-one">
                 <span className="text-lg">
-                  1 <b>+</b>
+                  2 <b>+</b>
                 </span>
 
                 <span className="text-sm text-cs">
@@ -95,7 +95,7 @@ const Home = () => {
         </div>
 
         <div className="section__bg-wrapper">
-          <span className="bg__title">Web Developer</span>
+          <span className="bg__title">Home</span>
         </div>
       </section>
     </>

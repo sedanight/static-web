@@ -57,7 +57,7 @@ export const services = [
     name: "Web Development",
     title: "Management Web",
     description:
-      "Over 1 years of development experience in Script Languange, JS, PHP.",
+      "Over 2 years of development experience in Script Languange, JS, PHP.",
     technology: ReactLogo,
   },
   {
@@ -230,7 +230,7 @@ export const cv = [
     id: 1,
     title: "Sriwijaya University",
     subtitle: "Bachelor Degree of Physics in Natural Science",
-    date: "2020 - 2023",
+    date: "2017 - 2023",
     description:
       "Relevant Course works: Algorithms and Programming",
     category: "education",
