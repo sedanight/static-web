@@ -33,7 +33,7 @@ const Home = () => {
 
               <p className="home__data home__data-one">
                 <span className="text-lg">
-                  2 <b>+</b>
+                  0 <b>+</b>
                 </span>
 
                 <span className="text-sm text-cs">
@@ -43,7 +43,7 @@ const Home = () => {
 
               <p className="home__data home__data-two">
                 <span className="text-lg">
-                  10 <b>+</b>
+                  1 <b>+</b>
                 </span>
 
                 <span className="text-sm text-cs">
