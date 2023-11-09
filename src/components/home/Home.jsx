@@ -23,7 +23,7 @@ const Home = () => {
             </h1>
 
             <p className="home__job">
-              <span className="text-cs">Saya adalah seorang</span> <b>Web Developer</b>
+              <span className="text-cs">Saya adalah seorang</span> <b>Fresh Graduate</b>
             </p>
 
             <div className="home__img-wrapper">
@@ -57,7 +57,7 @@ const Home = () => {
             </div>
 
             <p className="home__text">
-            Sebagai pengembang web, saya memiliki pengalaman dalam beberapa proyek dan saya antusias mencari peluang kerja penuh waktu atau paruh waktu. Saya berkomitmen untuk memberikan solusi berkualitas tinggi dalam proyek-proyek masa depan.
+            Sebagai Fresh Graduate pengembang web, saya memiliki pengalaman dalam beberapa proyek dan saya antusias mencari peluang kerja penuh waktu atau paruh waktu. Saya berkomitmen untuk memberikan solusi berkualitas tinggi dalam proyek-proyek masa depan.
             </p>
 
             <div className="home__socials">

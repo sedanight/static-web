@@ -54,7 +54,7 @@ export const links = [
 export const services = [
   {
     id: 1,
-    name: "Web Development",
+    name: "Mini Laravel",
     title: "Management Web",
     description:
       "Over 2 years of development experience in Script Languange, JS, PHP.",
@@ -265,17 +265,15 @@ export const cv = [
       "During the internship, I collaborated with a team of developers to work on real-world measurement how about the system works.",
     category: "experience",
   },
-
   {
     id: 5,
-    title: "PT. Alih Daya Pratama",
-    subtitle: "Payment Collector",
-    date: "2023",
+    title: "Project-Based Intern : Full Stack Developer Virtual Internship Experience Investree",
+    subtitle: "Fullstack Development",
+    date: "2022",
     description:
-      "Being a Payment Collector in Outsourcing Company Able to knowledge how about payment system works and remind the client do the payment is some knowledge why they can't pay during the periode of the system are notice. ",
+      "During the internship, Learn and apply quality function development competitive analysis and Evaluations do some project on Laravel like creating a dashnboard web with CRUD",
     category: "experience",
   },
-
   // {
   //   id: 6,
   //   title: "Project Manager",
